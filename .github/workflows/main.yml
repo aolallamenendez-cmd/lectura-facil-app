@@ -1,0 +1,8 @@
+name: Hola Actions
+on:
+  workflow_dispatch:
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "¡Hola, Almu! Actions funciona."
